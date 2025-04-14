@@ -45,7 +45,7 @@ def generate_customer_data(n_samples, n_features, n_clusters, random_state):
         elif i == 3:
             feature_names.append("Frequenza_Acquisti")
         elif i == 4:
-            feature_names.append("Anni_Cliente")
+            feature_names.append("Score_Reclami")
         else:
             feature_names.append(f"Feature_{i+1}")
     
